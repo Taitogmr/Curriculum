@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+
+    background-color: bisque;
+}
+
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color: cadetblue;
+    padding: 5px;
+    border-radius: 5px;
+    color: black
+}
+
+.container__cv {
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+  
+}
+p{
+    color: rgb(186, 171, 214);
+}
+H1{
+    color: rgb(95, 95, 107);
+}
+.container__cv__izquierda {
+    width: 20%;
+    background-color: rgb(36, 32, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+}
+
+.container__cv__derecha {
+    width: 70%;
+    border: 1px solid black;
+    padding: 10px;
+   
+}
+.anio: color black;
+h1{
+    color: black;
+}
+img {
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.datos {
+    width: 100%;
+    background-color: blue;
+    ;
+}
+
+.personal {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 90%;
+    background-color: black;
+}
+.blanco{
+    color: white;
+}
+.experiencia {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.anio {
+    width: 20%;
+}
+
+.info {
+    width: 75%;
+}
